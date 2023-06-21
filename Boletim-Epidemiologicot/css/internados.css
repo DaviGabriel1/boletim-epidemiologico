@@ -1,0 +1,30 @@
+.internados {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,231,9,1) 35%);
+    border-radius: 0 50px 50px 0;
+    margin-bottom: 16px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.internados__titulo {
+    margin-left: 24px;
+    font-family: 'Tilt Neon';
+    font-weight: 700;
+    color: whitesmoke;
+}
+.internados__dados {
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color: rgb(206, 189, 45);
+    font-family: 'Tilt Neon';
+    font-weight: 700;
+}
